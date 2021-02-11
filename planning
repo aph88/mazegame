@@ -1,0 +1,51 @@
+On load presented with 2 options:
+-Create game
+-Join game
+
+Create game
+-----------
+
+Opens a form on home page
+Creating a game generates a 4 letter code
+Asked to enter nickname
+When nickname entered button appears for create game
+You get taken to lobby
+
+Join game
+---------
+Prompted to enter nickname and code
+checks for valid code and that nickname isn't blank and is
+original to the lobby
+takes players to a page with path of /play/XYRT (code)
+
+
+Lobby
+-----
+Lobby is same for host and other players, host has a token
+that says if they are host or not and allows them to start game
+
+Pick a colour and a character - default colours when joining that
+can be changed, must be original
+Border around character becomes player colour - character can't
+be selected by other players once selected
+Have an option for all players to say that they are ready
+
+Once all players have selected colours and characters and have readied up then start game button becomes clickable for host
+
+Host also has option to choose map size
+
+
+Game Creation
+-------------
+Generates map based on the number of players
+Exit is always at the centre of the map
+Players always start in the corners
+Always 4 
+
+
+Game
+----
+
+
+
+
